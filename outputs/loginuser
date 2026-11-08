@@ -1,2 +1,2 @@
-$ curl -s -X POST -H "Content-Type: application/json" -d '{"userName":"vnknhh","password":"123"}' http://localhost:8000/djangoapp/login
-{"userName": "vnknhh", "status": "Authenticated"}
+curl -X POST "https://trnvnkhanhso-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/djangoapp/login" -H "Content-Type: application/json" -d '{"userName": "root", "password": "****"}'
+{"userName": "root", "status": "Authenticated"}
