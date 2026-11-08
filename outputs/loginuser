@@ -1,0 +1,2 @@
+$ curl -s -X POST -H "Content-Type: application/json" -d '{"userName":"vnknhh","password":"123"}' http://localhost:8000/djangoapp/login
+{"userName": "vnknhh", "status": "Authenticated"}
